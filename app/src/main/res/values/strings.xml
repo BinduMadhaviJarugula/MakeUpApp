@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MakeUp App</string>
+    <string name="fav">fav</string>
+    <string name="id">id</string>
+    <string name="name">name</string>
+    <string name="image">image_link</string>
+    <string name="descr">description</string>
+    <string name="nodata">No Data</string>
+    <string name="cos">Cosmetics App</string>
+    <string name="check">Please check your Internet..</string>
+    <string name="ok">OK</string>
+    <string name="cosmetic">Cosmetics App</string>
+    <string name="nofav">No Favourites....</string>
+    <string name="description">Description</string>
+    <string name="image1">Image:</string>
+    <string name="singin">sign in successful</string>
+    <string name="fail">sign in failure</string>
+    <string name="remove">Removed from favourites</string>
+    <string name="added">Added to favorites</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="bindu">bindu</string>
+    <string name="google_signin">Google Sign In</string>
+    <string name="logout">logout</string>
+    <string name="text">text</string>
+    <string name="cont">continue</string>
+    <string name="image3">image3</string>
+    <string name="splashscreen">splashscreen</string>
+    <string name="image2">image2</string>
+    <string name="urls">ca-app-pub-3940256099942544/6300978111</string>
+</resources>

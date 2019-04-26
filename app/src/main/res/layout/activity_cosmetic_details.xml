@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".CosmeticDetails">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
+        android:layout_margin="5dp"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen12"
+        android:background="@color/yello3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/image1"
+                android:textColor="@color/darkblue"
+                android:textSize="@dimen/text"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/imagename"
+                android:layout_width="@dimen/dimen11"
+                android:layout_height="wrap_content"
+                android:textColor="#c76e6e"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <com.github.ivbaranov.mfb.MaterialFavoriteButton
+                android:id="@+id/favid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen10"
+            android:contentDescription="@string/image2"
+            android:cropToPadding="true"
+            android:padding="@dimen/dimen3"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/description"
+            android:textColor="@color/bluee"
+            android:textSize="@dimen/text1"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#c76e6e"
+            android:textSize="@dimen/text2" />
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</ScrollView>

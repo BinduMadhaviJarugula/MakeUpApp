@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "276984134685",
+    "firebase_url": "https://makeupapp-8b07b.firebaseio.com",
+    "project_id": "makeupapp-8b07b",
+    "storage_bucket": "makeupapp-8b07b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276984134685:android:f70587c3fd800671",
+        "android_client_info": {
+          "package_name": "com.example.cse.makeupapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276984134685-vdaf925l9b5iuchn6iuk6116a4c5dio8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmO-0fDuVe9_2tuFcubVOkMalRb-D5T2k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
